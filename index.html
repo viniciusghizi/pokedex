@@ -17,10 +17,10 @@
 <body>
     <header>
         <a href="#">
-            <img src="./src/images/pokeball.png" alt="pokebola" class="logo">
+            <img src="./src/images/pokeball.png" alt="pokebola" id="logo">
         </a>
         <a href="#">
-            <img src="./src/images/pokemon.png" alt="catch your first pokemon" class="pokemon">
+            <img src="./src/images/pokemon.png" alt="catch your first pokemon" id="pegar-um-pokemon">
         </a>
         <button id="botao-alterar-tema">
             <img src="./src/images/sun.png" alt="Imagem do Sol" class="imagem-botao">
@@ -29,25 +29,27 @@
 
     <main>
         <ul class="listagem-pokemon">
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>
-                        Bulbasaur
-                    </span>
-                    <span>
-                        #001
-                    </span>
-                </div>
-                <img src="./src/images/bulbasaur.gif" alt="Bulbasaur" class="gif">
-                <ul class="tipos">
-                    <li class="tipo grama">Grama</li>
-                    <li class="tipo veneno">Veneno</li>
-                </ul>
-                <p class="descricao">
-                    There is a plant seed on its back right from the day this Pokémon is born. 
-                    The seed slowly grows larger.
-                </p>
-            </li>
+            <div id="bulba">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>
+                            Bulbasaur
+                        </span>
+                        <span>
+                            #001
+                        </span>
+                    </div>
+                    <img src="./src/images/bulbasaur.gif" alt="Bulbasaur" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                        <li class="tipo veneno">Veneno</li>
+                    </ul>
+                    <p class="descricao">
+                        There is a plant seed on its back right from the day this Pokémon is born.
+                        The seed slowly grows larger.
+                    </p>
+                </li>
+            </div>
             <li class="cartao-pokemon">
                 <div class="informacoes">
                     <span>
@@ -81,28 +83,30 @@
                     <li class="tipo veneno">Veneno</li>
                 </ul>
                 <p class="descricao">
-                    Its plant blooms when it is absorbing solar energy. 
+                    Its plant blooms when it is absorbing solar energy.
                     It stays on the move to seek sunlight.
                 </p>
             </li>
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>
-                        Charmander
-                    </span>
-                    <span>
-                        #004
-                    </span>
-                </div>
-                <img src="./src/images/charmander.gif" alt="Charmander" class="gif">
-                <ul class="tipos">
-                    <li class="tipo fogo">Fogo</li>
-                </ul>
-                <p class="descricao">
-                    It has a preference for hot things. 
-                    When it rains, steam is said to spout from the tip of its tail.
-                </p>
-            </li>
+            <div id="charmander">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>
+                            Charmander
+                        </span>
+                        <span>
+                            #004
+                        </span>
+                    </div>
+                    <img src="./src/images/charmander.gif" alt="Charmander" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">
+                        It has a preference for hot things.
+                        When it rains, steam is said to spout from the tip of its tail.
+                    </p>
+                </li>
+            </div>
             <li class="cartao-pokemon">
                 <div class="informacoes">
                     <span>
@@ -117,7 +121,7 @@
                     <li class="tipo fogo">Fogo</li>
                 </ul>
                 <p class="descricao">
-                    It has a barbaric nature. 
+                    It has a barbaric nature.
                     In battle, it whips its fiery tail around and slashes away with sharp claws.
                 </p>
             </li>
@@ -135,27 +139,29 @@
                     <li class="tipo fogo">Fogo</li>
                 </ul>
                 <p class="descricao">
-                    It spits fire that is hot enough to melt boulders. 
+                    It spits fire that is hot enough to melt boulders.
                     It may cause forest fires by blowing flames.
                 </p>
             </li>
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>
-                        Squirtle
-                    </span>
-                    <span>
-                        #007
-                    </span>
-                </div>
-                <img src="./src/images/squirtle.gif" alt="Squirtle" class="gif">
-                <ul class="tipos">
-                    <li class="tipo agua">Agua</li>
-                </ul>
-                <p class="descricao">
-                    When it retracts its long neck into its shell, it squirts out water with vigorous force.
-                </p>
-            </li>
+            <div id="squirtle">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>
+                            Squirtle
+                        </span>
+                        <span>
+                            #007
+                        </span>
+                    </div>
+                    <img src="./src/images/squirtle.gif" alt="Squirtle" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Agua</li>
+                    </ul>
+                    <p class="descricao">
+                        When it retracts its long neck into its shell, it squirts out water with vigorous force.
+                    </p>
+                </li>
+            </div>
             <li class="cartao-pokemon">
                 <div class="informacoes">
                     <span>
@@ -170,7 +176,7 @@
                     <li class="tipo agua">Agua</li>
                 </ul>
                 <p class="descricao">
-                    It is recognized as a symbol of longevity. 
+                    It is recognized as a symbol of longevity.
                     If its shell has algae on it, that Wartortle is very old.
                 </p>
             </li>
@@ -188,7 +194,7 @@
                     <li class="tipo agua">Agua</li>
                 </ul>
                 <p class="descricao">
-                    It crushes its foe under its heavy body to cause fainting. 
+                    It crushes its foe under its heavy body to cause fainting.
                     In a pinch, it will withdraw inside its shell.
                 </p>
             </li>
@@ -212,7 +218,8 @@
         </ul>
     </main>
     <footer>
-        <p>Projeto criado na live do Canal Dev em Dobro. <br>Desenvolvido com ❤️ por <a href="mailto:vinighizi@gmail.com.com.br?subject=Pokedex Github Project">Vinicius Ghizi</a>.</p>
+        <p>Projeto criado na live do Canal Dev em Dobro. <br>Desenvolvido com ❤️ por <a
+                href="mailto:vinighizi@gmail.com.com.br?subject=Pokedex Github Project">Vinicius Ghizi</a>.</p>
     </footer>
     <script src="./src/js/index.js"></script>
 </body>

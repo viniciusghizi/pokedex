@@ -17,13 +17,13 @@ header {
     padding: 25px;
 }
 
-header .logo,
+header #logo,
 header .imagem-botao {
     width: 30px;
     transition: 0.2s ease-in-out;
 }
 
-header .pokemon{
+header #pegar-um-pokemon{
     width: 90px;
     transition: 0.2s ease-in-out;
 }
@@ -33,12 +33,16 @@ header #botao-alterar-tema {
     border: none;
 }
 
-header .logo:hover,
+header #logo:hover,
 header .pokemon:hover,
 header .imagem-botao:hover,
 main .cartao-pokemon:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+header #logo:hover{
+    animation: loading 2s linear infinite;
 }
 
 main {
@@ -131,4 +135,14 @@ footer {
     display: flex;
     text-align: center;
     justify-content: space-around;
+}
+
+
+@keyframes loading {
+    from {
+		transform: rotate(0);
+	}
+    to {
+		transform: rotate(360deg);
+	}
 }
