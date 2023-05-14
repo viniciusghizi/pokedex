@@ -10,7 +10,7 @@ The project in general has been finished, i'm trying another ideas for this proj
 ![Black-theme](./.githubImages/screenshot02.jpg)
 
 
-## 🚀 Instalando <Pokedex>
+## 🚀 Install
 
 This is a Simple Project using the basics of HTML, CSS and JS. Just clone and use has your need.
 
