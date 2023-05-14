@@ -5,7 +5,7 @@
 ### Features
 
 The project in general has been finished, i'm trying another ideas for this project. 
-
+![Example](./.githubImages/example.gif)
 ![White-theme](./.githubImages/screenshot01.jpg)
 ![Black-theme](./.githubImages/screenshot02.jpg)
 
